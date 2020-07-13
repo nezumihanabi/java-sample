@@ -1,0 +1,39 @@
+INSERT INTO MEMBER(
+    name,
+    password,
+    insert_date,
+    update_date
+)
+VALUES(
+    'システム',
+    'U8ZNJ9PYkxAG',
+    SYSTIMESTAMP,
+    SYSTIMESTAMP
+)
+;
+INSERT INTO ATTENDANCE(
+    member_id,
+    target_year,
+    target_fiscal_year,
+    target_month,
+    target_date,
+    work_start,
+    work_end,
+    refresh_start,
+    refresh_end,
+    insert_date,
+    update_date
+)
+VALUES(
+    1,
+    '2019',
+    '2018',
+    '03',
+    '01',
+    '0900',
+    '1730',
+    '1200',
+    '1300',
+    SYSTIMESTAMP,
+    SYSTIMESTAMP
+)
